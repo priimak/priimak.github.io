@@ -38,3 +38,5 @@ From now on merge operation will be permitted only if value of *Verified* label 
 {% highlight bash %}
  ssh -p 29418 ${user_in_verified_group}@${you.gerrit.server} gerrit review --label Verified=1 ${patchset_hash}
 {% endhighlight %}
+
+For more information see here <https://gerrit-review.googlesource.com/Documentation/config-project-config.html>
