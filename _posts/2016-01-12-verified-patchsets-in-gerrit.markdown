@@ -33,4 +33,8 @@ $ git commit -m 'Setup of Verify label'
 $ git push origin HEAD:refs/meta/config
 {% endhighlight %}
 
-From now on merge operation will be permitted only if value of *Verified* label is set to *+1*.
+From now on merge operation will be permitted only if value of *Verified* label is set to *+1*. You can manually set value of this label on the command line for a given patch set like so
+
+{% highlight bash %}
+ ssh -p 29418 ${user_in_verified_group}@${you.gerrit.server} gerrit review --label Verified=1 ${patchset_hash}
+{% endhighlight %}
