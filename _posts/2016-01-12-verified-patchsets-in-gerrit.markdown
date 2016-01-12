@@ -3,9 +3,9 @@ published: true
 title: Verified patchsets in Gerrit
 layout: post
 ---
-Follow these steps on to permit merge of each individual patchset only it has been marked *Verified*. These settings are per project and not for the entire Gerrit server. 
+Follow these steps to set up Gerrit in such a way so that merge of each individual patchset will only be permitted if it has been marked *Verified*. These settings are per project and not for the entire Gerrit server. 
 
-First through Gerrit web interface create group *Verifiers* and to it users who will be able to mark patchsets Verified. Save UUID of this group in the variable *GUUID*.
+First through Gerrit web interface create group *Verifiers* and add to it users who will be able to mark patchsets Verified. For example example shown below that group UUID is assumed to be held in the environment variable *GUUID*.
 
 Clone your repository, *cd* into it and then do:
 
