@@ -32,3 +32,5 @@ $ git add project.config groups
 $ git commit -m 'Setup of Verify label'
 $ git push origin HEAD:refs/meta/config
 {% endhighlight %}
+
+From now on merge operation will be permitted only if value of *Verified* label is set to *+1*.
