@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://priimak.github.io
+title: Useful Notes?
+tagline: notes
+description: Blog related to science, software and ...
+paginate: 5
