@@ -1,9 +1,9 @@
 excerpt_separator: ""
 pygments: true
-theme: minima
+theme: merlot
 markdown: kramdown
 url: http://priimak.github.io
-title: Meaningful Notes in Meaningless World.
+title: Thinking?
 tagline: 
 description: Blog related to science, software and ...
-paginate: 5
+aginate: 5
