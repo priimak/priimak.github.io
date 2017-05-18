@@ -1,5 +1,6 @@
 excerpt_separator: ""
 pygments: true
+theme: minima
 markdown: kramdown
 url: http://priimak.github.io
 title: Meaningful Notes in Meaningless World.
